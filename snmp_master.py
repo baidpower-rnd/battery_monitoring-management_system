@@ -39,7 +39,8 @@ async def run():
     else:
         # Print the results of the query
         for varBind in varBinds:
-            print(" = ".join([x.prettyPrint() for x in varBind]))
+            #print(" = ".join([x.prettyPrint() for x in varBind]))
+            print(varBind[1].prettyPrint()) # this print only given OID value
 
     # Close the SNMP engine after use
     snmpEngine.close_dispatcher()
