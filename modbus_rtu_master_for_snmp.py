@@ -1,7 +1,14 @@
-# minimalmodbus==2.1.1
-# Modbus Author : Aurinam Chandra
-# SNMP Author : Sohail Akhtar
-# File Name : modbus_snmp_bridge.py
+"""
+@minimalmodbus==2.1.1
+@author: Arinam Chandra, Sohail Akhtar
+@date: 09th April 2025
+@file: modbus_rtu_master.py
+@brief: This script is used to read data from a Modbus slave using the minimalmodbus library.
+@company: Baid Power Services Pvt. Ltd
+
+Copyright (c) 2025 Baid Power Services, Inc. All Rights Reserved.
+"""
+
 
 import minimalmodbus
 
