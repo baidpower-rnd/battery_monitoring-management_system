@@ -1,3 +1,13 @@
+"""
+@author: Sohail Akhtar
+@date: 11th April 2025
+@file: modbus_tcp_slave.py
+@brief: This script is used to send data to a Modbus master through TCP using the pymodbus library.
+@company: Baid Power Services Pvt. Ltd
+
+Copyright (c) 2025 Baid Power Services, Inc. All Rights Reserved.
+"""
+
 from pymodbus.server import StartTcpServer
 from pymodbus.datastore import ModbusSequentialDataBlock, ModbusSlaveContext, ModbusServerContext
 import logging
