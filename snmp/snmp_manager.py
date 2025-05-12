@@ -1,3 +1,7 @@
+# python==3.11.1
+# pysnmp==7.1.19
+# Author: Sohail Akhtar
+
 import asyncio
 from pysnmp.hlapi.v3arch.asyncio import *
 
